@@ -8,4 +8,3 @@ before_install:
 
 script:
   - docker run -e CI=true art/dr npm run test
-  
